@@ -1,0 +1,41 @@
+Nmap version 7.94SVN ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.4.6 openssl-3.0.10 libssh2-1.11.0 libz-1.2.13 libpcre2-10.42 libpcap-1.10.4 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-04-14 19:15 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0013s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.57 seconds
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-04-14 19:16 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0013s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-04-14 19:17 UTC
+Nmap scan report for yahoo.com (74.6.231.20)
+Host is up (0.031s latency).
+Other addresses for yahoo.com (not scanned): 98.137.11.163 74.6.143.25 74.6.143.26 74.6.231.21 98.137.11.164 2001:4998:24:120d::1:1 2001:4998:124:1507::f001 2001:4998:44:3507::8001 2001:4998:24:120d::1:0 2001:4998:44:3507::8000 2001:4998:124:1507::f000
+rDNS record for 74.6.231.20: media-router-fp73.prod.media.vip.ne1.yahoo.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.05 seconds

@@ -1,0 +1,3 @@
+google.com: Network is unreachable
+root@ubuntu-s-2vcpu-4gb-tor1-01:~# 
+root@ubuntu-s-2vcpu-4gb-tor1-01:~#

@@ -1,0 +1,34 @@
+1. 
+Domain: https://swavy-ui.com.ng
+IP: 102.130.122.96
+Type: IPv4	
+Hosted by Host Africa (Pty) Ltd Host Africa (Pty) Ltd	
+Location: South Africa
+
+2. 
+Domain: https://debbydot.com
+IP: 176.74.16.235
+Type: IPv4	
+Hosted by Freethought Internet Limited Freethought Internet Limited	
+Location: United Kingdom of Great Britain and Northern Ireland
+
+3. 
+Domain: https://bestbuy.com
+IP: 23.204.249.195
+Type: Pv4	
+Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	
+Location: United States of America
+
+4. 
+Domain: https://bootstrapcdn.com
+IP: 216.24.57.1
+Type: IPv4	
+Hosted by Render Render	
+Location: United States of America
+
+5. 
+Domain: https://larazon.es
+IP: 52.49.212.126
+Type: IPv4	
+Hosted by Amazon.com, Inc. Amazon.com, Inc.	
+Location: Ireland
