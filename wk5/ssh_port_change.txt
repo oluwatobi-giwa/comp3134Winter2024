@@ -1,0 +1,65 @@
+root@comp3134Winter2022:~# sudo /etc/init.d/ssh restart
+Restarting ssh (via systemctl): ssh.service.
+root@comp3134Winter2022:~# sudo /etc/ssh/ssh_config restart
+sudo: /etc/ssh/ssh_config: command not found
+root@comp3134Winter2022:~# sudo /etc/init.d/ssh restart
+Restarting ssh (via systemctl): ssh.service.
+root@comp3134Winter2022:~# service mysql start
+root@comp3134Winter2022:~# /etc/init.d/apache2 start
+Starting apache2 (via systemctl): apache2.service.
+root@comp3134Winter2022:~# /etc/init.d/apache2 stop
+Stopping apache2 (via systemctl): apache2.service.
+root@comp3134Winter2022:~# /etc/init.d/apache2 restart
+Restarting apache2 (via systemctl): apache2.service.
+
+#7th step
+root@comp3134Winter2022:~#  ssh touby@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection refused
+root@comp3134Winter2022:~# ssh touby@159.203.42.218 -p 22
+The authenticity of host '159.203.42.218 (159.203.42.218)' can't be established.
+ECDSA key fingerprint is SHA256:manahWN4+24C2lzWafahk+VcLnm+8cnR52JIiN72u6I.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '159.203.42.218' (ECDSA) to the list of known hosts.
+touby@159.203.42.218's password:
+Permission denied, please try again.
+touby@159.203.42.218's password:
+Permission denied, please try again.
+touby@159.203.42.218's password:
+
+local machine :
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh touby@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection timed out
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh touby@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection timed out
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh touby@159.203.42.218 -p 22
+touby@159.203.42.218's password:
+Permission denied, please try again.
+touby@159.203.42.218's password:
+Permission denied, please try again.
+touby@159.203.42.218's password:
+touby@159.203.42.218: Permission denied (publickey,password).
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh touby@159.203.42.218 -p 22
+
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh root@159.203.42.218
+ssh: connect to host 159.203.42.218 port 22: Connection refused
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh root@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection timed out
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh root@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection timed out
+
+touby@LAPTOP-VG3M31I0 MINGW32 ~
+$ ssh root@159.203.42.218 -p 2222
+ssh: connect to host 159.203.42.218 port 2222: Connection timed out
